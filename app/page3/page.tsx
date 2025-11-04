@@ -1,4 +1,5 @@
 import LaserFlow from '@/components/LaserFlow';
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -25,6 +26,14 @@ export default function Page() {
             color="#CF9EFF"
           />
         </div>
+      </div>
+      <div className="absolute right-4 top-4 z-20">
+        <Link
+          href="/"
+          className="inline-flex items-center rounded-md px-3 py-1.5 text-m font-medium text-white hover:bg-white/10 transition"
+        >
+          next
+        </Link>
       </div>
       <div className="w-full bg-black px-4 py-0 relative -mt-[50vh] z-10">
         <div className="grid items-start justify-center w-full max-w-7xl mx-auto h-[50vh] rounded-lg border border-white/20 bg-white/5 p-6 bg-[radial-gradient(circle,rgba(255,255,255,0.12)_1px,transparent_1px)] [background-size:20px_20px] [background-position:center]">
