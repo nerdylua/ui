@@ -32,7 +32,7 @@ export default function Page() {
           href="/"
           className="inline-flex items-center rounded-md px-3 py-1.5 text-m font-medium text-white hover:bg-white/10 transition"
         >
-          next
+          end
         </Link>
       </div>
       <div className="w-full bg-black px-4 py-0 relative -mt-[50vh] z-10">
