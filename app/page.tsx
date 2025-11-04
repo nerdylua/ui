@@ -12,6 +12,9 @@ export default function Home() {
           gridScale={0.1}
           scanColor="#FF9FFC"
           scanOpacity={0.4}
+          lineJitter={0.1}
+          scanGlow={0.5}
+          scanSoftness={2}
           enablePost
           bloomIntensity={0.6}
           chromaticAberration={0.002}
