@@ -1,4 +1,5 @@
 import Shuffle from "@/components/Shuffle";
+import Link from "next/link";
 import { GridScan } from "@/components/GridScan";
 
 export default function Home() {
@@ -20,6 +21,14 @@ export default function Home() {
           chromaticAberration={0.002}
           noiseIntensity={0.01}
         />
+      </div>
+      <div className="absolute right-4 top-4 z-20">
+        <Link
+          href="/page2"
+          className="inline-flex items-center rounded-md px-3 py-1.5 text-m font-medium text-white hover:bg-white/10 transition"
+        >
+          next
+        </Link>
       </div>
       <main className="relative z-10 flex min-h-screen w-full max-w-3xl flex-col items-center justify-center p-8 mx-auto">
         <div className="w-fit">
