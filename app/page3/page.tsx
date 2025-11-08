@@ -5,7 +5,6 @@ export default function Page() {
   return (
     <>
       <div className="relative h-screen w-full bg-black">
-        {/* LaserFlow flows from top to bottom */}
         <div className="absolute inset-0 overflow-hidden">
           <LaserFlow
             className="absolute inset-0"
