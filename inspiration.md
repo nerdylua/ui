@@ -14,7 +14,7 @@ store all templates, dashboard components and everything ui in this so it can be
 | Purpose | Technology |
 |----------|-------------|
 | Framework | **Next.js 15** |
-| Library | **React 18** |
+| Library | **React 19** |
 | Styling | **Tailwind CSS** |
 | UI Components | **shadcn/ui** |
 | Animations | **Framer Motion** |
