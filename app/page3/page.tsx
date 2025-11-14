@@ -21,7 +21,7 @@ export default function Page() {
             fogFallSpeed={0.7}
             decay={3}
             falloffStart={1.2}
-            horizontalSizing={0.4}
+            horizontalSizing={0.34}
             color="#CF9EFF"
           />
         </div>
