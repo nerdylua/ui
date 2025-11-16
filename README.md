@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+1. https://ui.shadcn.com/
+1. https://21st.dev/community/components
+1. https://reactbits.dev/
+1. https://ai-sdk.dev/elements
+2. https://magicui.design/docs/components
+1. https://github.com/Qualiora/shadboard
 
-## Getting Started
+store all templates, dashboard components and everything ui in this so it can be reused them anytime
 
-First, run the development server:
+# The Ultimate Tech Stack (in my opinion)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Frontend
+| Purpose | Technology |
+|----------|-------------|
+| Framework | **Next.js 15** |
+| Library | **React 19** |
+| Styling | **Tailwind CSS** |
+| UI Components | **shadcn/ui** |
+| Animations | **Framer Motion** |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Backend
+| Purpose | Technology |
+|----------|-------------|
+| Server / API | **Next.js API Routes** |
+| RPC Framework | **tRPC** |
+| Event Handling | **Inngest** |
+| Validation | **Zod** |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Database
+| Purpose | Technology |
+|----------|-------------|
+| Database | **PostgreSQL** |
+| ORM | **Drizzle ORM** |
+| Vector Store (for RAG) | **pgvector** |
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Authentication & Payments
+| Purpose | Technology |
+|----------|-------------|
+| Authentication | **Better Auth** |
+| Payments | Stripe/Polar |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tooling & Developer Experience
+| Purpose | Technology |
+|----------|-------------|
+| Monorepo | **Turborepo** |
+| Package Manager | **pnpm** |
+| Linter / Formatter | **Biome (Ultracite)** |
+| API Testing | **Postman** |
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## AI & Automation
+| Purpose | Technology |
+|----------|-------------|
+| AI SDK | **AI SDK 5** |
+| Orchestration | **Mastra** |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Infrastructure
+| Purpose | Technology |
+|----------|-------------|
+| Hosting | **Vercel** |
+| Cache / Queue | **Redis** |
+| Event System | **Inngest** |
+| Email Service | **Resend** |
+
